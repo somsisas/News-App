@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PreviewFragment"
+    android:background="@color/blackish">
+
+    <!-- This xml file is for the PreviewFragment.-->
+
+    <TextView
+        android:id="@+id/prev_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14pt"
+        android:layout_gravity="center"
+        android:textColor="@color/reddish"/>
+
+    <TextView
+        android:id="@+id/prev_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="10pt"
+        android:layout_gravity="left"
+        android:textColor="@color/baby_pink"/>
+
+    <Button
+        android:id="@+id/prev_but"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/reddish"
+        android:layout_marginTop="30dp"
+        android:text="@string/prevbuttontext"
+        />
+
+</LinearLayout>
